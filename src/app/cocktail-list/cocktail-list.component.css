@@ -1,0 +1,16 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    border : solid 1px grey;
+    margin: 2rem;
+    padding: 8px;
+}
+
+img {
+    width: 100%;
+}
+

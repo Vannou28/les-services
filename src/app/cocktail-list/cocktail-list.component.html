@@ -1,0 +1,12 @@
+<p>cocktail-list works!</p>
+<section>
+    <ng-container *ngFor="let cocktail of cocktails">
+        <div class="card" style="width: 18rem;">
+            <img [src]="cocktail.image" class="card-img-top" alt="photo du cocktail {{cocktail.name}}" >
+            <div class="card-body">
+            <h5 class="card-title">{{cocktail.name}}</h5>
+            <p class="card-text">Prix : {{cocktail.price}} €</p>
+            </div>
+        </div>
+    </ng-container>
+</section>
